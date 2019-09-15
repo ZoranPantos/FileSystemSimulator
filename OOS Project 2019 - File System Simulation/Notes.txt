@@ -5,7 +5,7 @@
 3. There is a bug where it does not write ROOT's parent (null) on screen. Code example:
    IDirNode node = disk.GetDirStats();
    disk.PrintIDirNodeStats(node);
-   This is not related to project tast requirements.
+   This is not related to project task requirements.
 4. Any user input can be stored in file, but when using echo command via terminal, input must not contain white spaces otherwise it will not work.
 5. If user input for file data contains '/', it won't be stored.
 6. If user tries to move existing file into nonexisting directory, file will be deleted.
